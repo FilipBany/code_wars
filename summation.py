@@ -1,3 +1,9 @@
 def summation(num):
-    return num * (num + 1) // 2
-print(summation(78))
+    total = 0
+    i = 1
+    while i <= num:
+        total += i
+        i += 1
+    return total
+
+print(summation(4))
